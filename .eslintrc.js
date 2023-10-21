@@ -1,6 +1,11 @@
 module.exports = {
   env: { browser: true, es2020: true, node: true, es6: true },
-  extends: ["eslint:recommended", "prettier"],
+  extends: [
+    "eslint:recommended",
+    "prettier",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+  ],
   rules: {
     // 启用额外规则
     indent: ["error", 2],
