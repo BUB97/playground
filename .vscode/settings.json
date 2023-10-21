@@ -1,0 +1,6 @@
+{
+  "javascript.validate.enable": false,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
