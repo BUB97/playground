@@ -5,6 +5,7 @@ module.exports = {
     "prettier",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:vue/vue3-recommended",
   ],
   rules: {
     // 启用额外规则
@@ -20,4 +21,5 @@ module.exports = {
     // 禁用基础配置汇总的规则
     "for-direction": "off",
   },
+  parser: "vue-eslint-parser",
 };
