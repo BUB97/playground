@@ -2,7 +2,7 @@ module.exports = {
   env: { browser: true, es2020: true, node: true, es6: true },
   extends: [
     "eslint:recommended",
-    "prettier",
+    "tencent",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:vue/vue3-recommended",
@@ -21,5 +21,11 @@ module.exports = {
     // 禁用基础配置汇总的规则
     "for-direction": "off",
   },
-  parser: "vue-eslint-parser",
+  parser: "@typescript-eslint/parser",
+  overrides: [
+    {
+      files: ["*.vue"],
+      parser: "vue-eslint-parser",
+    },
+  ],
 };

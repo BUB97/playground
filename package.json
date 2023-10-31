@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
@@ -20,11 +21,11 @@
     "@typescript-eslint/eslint-plugin": "^6.8.0",
     "@typescript-eslint/parser": "^6.8.0",
     "eslint": "^8.52.0",
-    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-tencent": "^1.0.4",
     "eslint-plugin-vue": "^9.17.0",
     "husky": "^8.0.3",
     "lint-staged": "^15.0.2",
-    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
     "vue-eslint-parser": "^9.3.2"
   }
 }
