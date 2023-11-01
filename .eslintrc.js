@@ -4,6 +4,10 @@ module.exports = {
     {
       files: ["*.vue"],
       parser: "vue-eslint-parser",
+      parserOptions: {
+        parser: "@typescript-eslint/parser",
+        ecmaVersion: "latest",
+      },
     },
   ],
   env: { browser: true, es2020: true, node: true, es6: true },
