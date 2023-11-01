@@ -4,7 +4,7 @@ import { ref } from "vue";
 defineProps({
   msg: {
     type: String,
-    default: ""
+    default: "",
   },
 });
 

@@ -1,4 +1,11 @@
 module.exports = {
+  parser: "@typescript-eslint/parser",
+  overrides: [
+    {
+      files: ["*.vue"],
+      parser: "vue-eslint-parser",
+    },
+  ],
   env: { browser: true, es2020: true, node: true, es6: true },
   extends: [
     "eslint:recommended",
@@ -21,11 +28,4 @@ module.exports = {
     // 禁用基础配置汇总的规则
     "for-direction": "off",
   },
-  parser: "@typescript-eslint/parser",
-  overrides: [
-    {
-      files: ["*.vue"],
-      parser: "vue-eslint-parser",
-    },
-  ],
 };

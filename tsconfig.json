@@ -23,6 +23,7 @@
         "packages/*/src/main.js"
       ]
     },
+    "allowJs": true
   },
   "exclude": ["node_modules", "dist", "*.d.ts"]
 }
